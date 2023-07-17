@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- goggle fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <title>template2</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <header id="home">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="" />
+            </div>
+
+            <nav>
+                <a href="#" class="bar"><i class="fa-solid fa-bars"></i></a>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#prtofolio">Portfolio </a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="search">
+                <a href="#" class="searc"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start landing -->
+    <div class="landing">
+        <div class="talk">
+            <div class="text">
+                <h2>
+                    hello world! <br /> we are kasper,we make art.
+                </h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+        </div>
+        <div class="left-right">
+            <i class="fas fa-angle-left left"></i>
+            <i class="fas fa-angle-right right"></i>
+        </div>
+        <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- end landing -->
+    <!-- start services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="title">
+                <h2>SERVICES</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+            <div class="cards">
+                <div class="card one">
+                    <i class="fas fa-desktop fa-3x"></i>
+                    <div class="speach">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sapiente voluptates illum sint velit numquam quam nobis praesentium, natus odio?
+                        </p>
+                    </div>
+                </div>
+                <div class="card two">
+                    <i class="fas fa-pencil-ruler fa-3x"></i>
+                    <div class="speach">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sapiente voluptates illum sint velit numquam quam nobis praesentium, natus odio?
+                        </p>
+                    </div>
+                </div>
+                <div class="card three">
+                    <i class="fas fa-cog fa-3x"></i>
+                    <div class="speach">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sapiente voluptates illum sint velit numquam quam nobis praesentium, natus odio?
+                        </p>
+                    </div>
+                </div>
+                <div class="card four">
+                    <i class="fas fa-camera fa-3x"></i>
+                    <div class="speach">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sapiente voluptates illum sint velit numquam quam nobis praesentium, natus odio?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end services -->
+    <!-- start features -->
+    <div class="features">
+        <div class="con">
+            <div class="image">
+                <img class="mobile-pic" src="images/mobile.png" alt="">
+            </div>
+            <div class="talk">
+                <h3>OUR DESIGN COMES WITH...</h3>
+                <p><i class="fas fa-desktop"></i>Responsive Design</p>
+                <p><i class="fas fa-desktop"></i>Modern And Clean Design</p>
+                <p><i class="fas fa-desktop"></i>Clean Code</p>
+                <p><i class="fas fa-desktop"></i>Browser Friendly</p>
+            </div>
+        </div>
+    </div>
+    <!-- end features -->
+    <!-- start PORTFOLIO -->
+    <div class="portofolio" id="prtofolio">
+        <div class="container">
+            <div class="title">
+                <h2> PORTFOLIO</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+            <ul class="icon" id="icons">
+                <li class="active" data-img="#all" id="all">All</li>
+                <li data-img="#Graphic" id="pGraphic">Graphic</li>
+                <li data-img="#imagine" id="pimagine">imagine</li>
+                <li data-img="#Print" id="pPrint">Print</li>
+            </ul>
+        </div>
+        <div class="photos">
+            <div id="Print" class="ph one ">
+                <img src="images/shuffle-01.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="ph two">
+                <img src="images/shuffle-02.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div id="Print" class="ph three">
+                <img  src="images/shuffle-03.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div id="Graphic"  class="ph four">
+                <img src="images/shuffle-04.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div id="imagine"  class="ph five">
+                <img src="images/shuffle-05.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div id="Graphic"  class="ph six">
+                <img src="images/shuffle-06.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div id="imagine" class="ph seven">
+                <img src="images/shuffle-07.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div id="imagine" class="ph eight">
+                <img  src="images/shuffle-08.jpg" alt="">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+        </div>
+        <a id="moreimg" class="more"> MORE </a>
+    </div>
+    <!-- end PORTFOLIO -->
+    <!-- start video  -->
+
+    <div class="video">
+        <video src="images/awesome-video.mp4" autoplay muted loop></video>
+        <div class="text">
+            <h2>SUPER AWESOME VIDEO HERE</h2>
+            <p>Its All You Need</p>
+            <button>SEE MORE</button>
+        </div>
+    </div>
+
+    <!-- end video  -->
+    <!-- start about -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="title">
+                <h2>ABOUT US</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+            <img src="images/about.png" alt="">
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- start status -->
+    <div class="status">
+        <div class="container">
+            <div class="box one">
+                <div class="shape">
+                    <i class="fas fa-mug-hot"></i>
+                </div>
+                <div class="number">
+                    1.236
+                </div>
+                <p>Coffee Drinks</p>
+            </div>
+            <div class="box two">
+                <div class="shape">
+                    <i class="far fa-folder"></i>
+                </div>
+                <div class="number">
+                    256</div>
+                <p>Coffee Drinks</p>
+            </div>
+            <div class="box three">
+                <div class="shape"> <i class="far fa-envelope"></i></div>
+                <div class="number">
+                    1,743
+                </div>
+                <p>Mail Sent</p>
+            </div>
+            <div class="box four">
+                <div class="shape"><i class="fas fa-trophy"></i></div>
+                <div class="number">
+                    17
+                </div>
+                <p>Awards Received</p>
+            </div>
+        </div>
+    </div>
+    <!-- end status -->
+    <!-- start our skills -->
+    <div class="skills">
+        <div class="container">
+            <div class="testim">
+                <h3>TESTIMONIALS</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.<br> Mauris blandit aliquet elit, eget tincidunt.</p>
+                <div class="sec">
+                    <div class="first">
+                        <img src="images/skills-01.jpg" alt="">
+                        <div class="content">
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                            <p>John Doe, CEO</p>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <img src="images/skills-02.jpg" alt="">
+                        <div class="content">
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                            <p>John Doe, CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="bullets">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="skill">
+                <h3>SKILLS</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.<br> Mauris blandit aliquet elit, eget tincidunt.</p>
+                <div class="prog-holder">
+                    <h4> ADOPE</h4>
+                    <div class="prog">
+                        <span style="width: 90%;" data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>HTML&amp; CSS</h4>
+                    <div class="prog">
+                        <span style="width: 90%;" data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>JAVASCRIPT</h4>
+                    <div class="prog">
+                        <span style="width: 70%;" data-progress="70%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>PHP</h4>
+                    <div class="prog">
+                        <span style="width: 60%;" data-progress="60%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our skills -->
+    <!-- start quote -->
+    <div class="quote">
+        <div class="container">
+            <q>
+        accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+      </q>
+            <p>John Doe</p>
+        </div>
+    </div>
+    <!-- end quote -->
+    <!-- start pricing -->
+    <div class="pricing" id="pricing">
+        <div class="container">
+            <div class="title">
+                <h2>PRICING</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+            <div class="cards">
+                <div class="card one">
+                    <div class="head">
+                        <h3>BASIC</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card two">
+                    <div class="head">
+                        <h3>PREMIUM</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card three">
+                    <div class="head">
+                        <h3>PRO</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card four">
+                    <div class="head">
+                        <h3>PLATINUM</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end pricing -->
+    <!-- start subscribe -->
+    <div class="subscribe">
+        <div class="container">
+            <form action="">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" name="mail" placeholder="Your Email">
+                <input type="submit" placeholder="SUBSCRIBE">
+            </form>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.</p>
+        </div>
+    </div>
+    <!-- end subscribe -->
+    <!-- start contact us -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="title">
+                <h2> CONTACT US</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+                </p>
+            </div>
+            <div class="box">
+                <form action="">
+                    <input class="main-input" type="text" placeholder="Your Name">
+                    <input class="main-input" type="email" placeholder="Your Email">
+                    <textarea class="main-input" type="text" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+                <div class="info">
+                    <h4>GET IN TOUCH</h4>
+                    <span>+00 123.456.789</span>
+                    <span>+00 123.456.789</span>
+                    <h4>WHERE WE ARE</h4>
+                    <address>Awesome Address 17<br>
+            New York, NYC<br>
+            123-4567-890<br>
+            USA</address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact us -->
+    <!-- strat footer -->
+    <footer>
+        <div class="container">
+            <img src="images/logo.png" alt="">
+            <div class="text">
+                <h3>WE ARE SOCIAL</h3>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-house-chimney"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>© 2021 <span>Kasper</span> All Right Reserved</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="main.js"></script>
+</body>
+
+</html>
